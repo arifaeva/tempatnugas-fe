@@ -4,7 +4,8 @@
     "next/typescript",
     "eslint:recommended",
     "plugin:@typescript-eslint/strict",
-    "plugin:@typescript-eslint/stylistic"
+    "plugin:@typescript-eslint/stylistic",
+    "plugin:storybook/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -13,7 +14,10 @@
     "sourceType": "module"
   },
   "root": true,
-  "plugins": ["@typescript-eslint", "simple-import-sort"],
+  "plugins": [
+    "@typescript-eslint",
+    "simple-import-sort"
+  ],
   "rules": {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
